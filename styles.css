@@ -32,6 +32,24 @@ body{
     border-radius: 0.3rem;
 }
 
+.indev-stripe{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #eab720;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-weight: 600;
+    font-size: 0.833rem;
+    height: 2rem;
+}
+
+.stripe-dock{
+    height: 2rem;
+}
+
 .header{
     display: flex;
     flex-direction: row;
