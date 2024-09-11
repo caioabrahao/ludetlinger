@@ -1,11 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root{
-    --text: #050315;
-    --background: #fbf7f7;
+    /*--text: #050315;*/
+    /*--background: #fbf7f7;*/
+    /*--primary: #2F4229;*/
+    /*--secondary: #223320;*/
+    /*--accent: #E1B472;*/
+
+    --text: #050a04;
+    --background: #f7fbf6;
     --primary: #2F4229;
-    --secondary: #223320;
-    --accent: #E1B472;
+    --secondary: #5f1f1a;
+    --accent: #efa12d;
+
 }
 
 *{
@@ -28,8 +35,12 @@ body{
     text-decoration: none;
     text-align: center;
     font-weight: 600;
-    width: 50%;
-    border-radius: 0.3rem;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.small{
+    font-size: 0.833rem;
 }
 
 .indev-stripe{
@@ -56,7 +67,7 @@ body{
     align-items: center;
     justify-content: space-between;
 
-    background-color: var(--secondary);
+    background-color: var(--primary);
     color: var(--background);
     padding: 0 5%;
     height: 10vh;
@@ -81,6 +92,10 @@ body{
 }
 
 .section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: 80vh;
     padding: 1rem 5%;
 }
@@ -89,6 +104,7 @@ body{
     display: flex;
     flex-direction: column;
     background: var(--primary);
+    color: var(--background);
 
     h1{
         font-size: 2.986rem;
@@ -119,7 +135,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 5%;
-    background-color: #5E7359;
+    background-color: #dedede;
 
     h2{
         font-size: 2.074rem;
@@ -129,6 +145,47 @@ body{
         font-size: 1.2rem;
         font-weight: 400;
     }
+}
+
+.timeline{
+
+}
+
+.timeline-item{
+    display: flex;
+    flex-direction: row;
+    gap: 1.2rem;
+}
+
+.circle{
+    background-color: var(--primary);
+    color: var(--background);
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    h3{
+        font-weight: 300;
+    }
+    p{
+        font-size: 1rem;
+    }
+}
+
+.section-3{
+    background-color: #a5a5a5;
+}
+
+.section-3__texts{
+    font-size: 1.2rem;
 }
 
 .footer{
