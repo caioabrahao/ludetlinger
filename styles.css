@@ -87,7 +87,7 @@ body{
 }
 
 .header__logo{
-    width: 10%;
+    width: 3rem;
     height: auto;
 }
 
@@ -201,7 +201,7 @@ body{
 }
 
 .footer__logo{
-    width: 10%;
+    width: 3rem;
     height: auto;
 }
 
@@ -216,5 +216,49 @@ body{
     }
     i{
         font-size: 1.44rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .button{
+        width: fit-content;
+        margin: 0.5rem 0;
+        font-size: 1rem;
+    }
+
+    .desktopBtn{
+        background-color: var(--accent);
+        padding: 0.5rem 1rem;
+        color: var(--text) !important;
+        text-decoration: none;
+        text-align: center;
+        font-weight: 600;
+        border-radius: 6px;
+
+        width: fit-content;
+        margin: 0.5rem 0;
+        font-size: 1rem;
+    }
+
+    .desktop-paragraph{
+        width: 50%;
+    }
+
+    .section{
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    .hero{
+
+    }
+
+    .hero__title{
+        h1{
+            font-size: 5.61rem;
+        }
+        h2{
+            font-size: 1.777rem;
+        }
     }
 }
